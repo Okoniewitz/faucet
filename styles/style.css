@@ -1,0 +1,264 @@
+
+@font-face {
+    font-family: League;
+    src: url("../styles/league.ttf");
+  }
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    user-select: none; 
+    background-color: gray;
+    color: white;
+    font-family: League;
+}
+.header {
+    width: 100%;
+    height: 130;
+    position:fixed;
+    z-index: 1;
+    transition: all 0.25s;
+}
+.headerA {
+    background-color: rgba(34, 34, 34, 0.63);
+    height: 10vh;
+
+}
+.buttonsHeader {
+    float: right;
+    line-height: 3;
+    font-size: 17;
+    margin-right: 50;
+    margin-top: 30;
+    transition: all 0.25s;
+}
+.buttonsHeaderA {
+    line-height: 1;
+    font-size: 12;
+    margin-top: 2vh;
+}
+.buttonHeader{
+    float: left;
+    line-height: 1;
+    margin: 0 7 0;
+    padding: 20 28;
+    font-size: 20;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f7931a;
+    color: rgb(228, 228, 228);
+    transition: all 0.25s;
+}
+.buttonHeader:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.buttonHeaderA{
+    font-size: 13;
+    padding: 2vh 1.5vw;
+}
+.logo {
+    margin-left: 60;
+    margin-top: 40;
+    width: 200;
+    height: 100%;
+    float: left;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition: all 0.5s;
+}
+.logoA {
+    width: 3.5vw;
+    margin-top: 2vh;
+    background-image: url("../img/logoM.png");
+}
+.main {
+    clear: both;
+    background-image: linear-gradient(to top, #280E2F,#1A113C, #111345);
+    height: 100vh;
+    width: 100%;
+    line-height: 1.1;
+}
+#anims {
+    position:absolute;
+    top:70vh;
+    width: 30%;
+    height: 500;
+}
+.grD {
+    background-image: linear-gradient(to bottom, #280E2F,#1A113C, #111345);
+}
+.grU {
+    background-image: linear-gradient(to top, #280E2F,#1A113C, #111345);
+}
+#texts {
+    margin-top: 30vh;
+    width: 55%;
+    float:left;
+}
+#text1, #text2, #text3 {
+    margin-left: 100;
+}
+#text1 {
+    color: #f7931a;
+    font-size: 5vw;
+    font-weight: 700;
+}
+#text2{
+    font-size: 5.5vw;
+    font-weight: 600;
+}
+#text3 {
+    margin-top: 3.5vw;
+    font-size: 20;
+}
+#blocks {
+    margin-top: 25vh;
+    float: left;
+    width: 45%;
+    height: 450;
+    line-height: 0.8;
+}
+#block {
+    margin-top: 20;
+    margin-left:30;
+    float:left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7931a;
+    color: rgb(228, 228, 228);
+    width: 36%;
+    text-align: center;
+    height: 20vh;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    padding-top: 50;
+    font-size: 2vw;
+}
+#block:hover {
+    transform: scale(1.1);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#earning, #cryptos, #features, #stats {
+    padding-top: 10%;
+    height: 100vh;
+}
+#tiles {
+    clear:both;
+    width: 80%;
+    margin: 5% 20% 0% 20%;
+    text-align: center;
+}
+#tile {
+    float: left;
+    width: 21%;
+    padding: 2%;
+    height: 20vh;
+    background-color: #7a7a7a4d;
+    font-size: 6vh;
+    margin-bottom: 3vh;
+    transition: all .2s ease-in-out;
+}
+#tile:hover {
+    transform: scale(1.1); 
+}
+#cryptoBar {
+    width: 100%;
+    clear: both;
+    height: 90vh;
+    margin-top: -10.5vh;
+    background-position-y: 1vh;
+    background-size: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/wh1.png");
+    background-color: rgba(128, 128, 128, 0.205);
+}
+#TitleTiles
+{
+    width: 90vw;
+    height: 20vh;
+    margin-left: 5vw;
+    margin-top: -13vh;
+    margin-bottom: -10vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/ways.png");
+}
+
+#features {
+    margin-bottom: 10vh;
+    background-image: linear-gradient(to bottom, #280E2F,#1A113C, #010001); 
+}
+#featuresPic {
+    background-image: url("../img/uf.png");
+    width: 60vw;
+    height: 60vh;
+    margin-left: 20vw;
+    background-size: cover;
+}
+#stats {
+    height: 90vh;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    border-bottom-width: 2px;
+    border-bottom-color: #f7931a;
+    border-bottom-style: solid;
+    background-color: black;
+
+}
+#statsIn {
+    background-image: none;
+    background-color: #010001;
+    border-top-width: 1px;
+    border-top-color: #f7931a;
+    border-top-style: solid;
+    padding: 0%;
+    background-image: url("../img/stats1.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    height:90vh;
+}
+::-webkit-scrollbar {
+width: 5px;
+}
+
+/* Track */
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #f7931a;
+    border-radius: 10px;
+}
+.stat {
+    position:relative;
+    top: 20vh;
+    font-size: 5vw;
+    left: 8.5vw;
+    width: 30vw;
+}
+.tasks {
+    top: 17vh;  
+}
+.users {
+    top: 29vh;
+}
+.withdraws {
+    top: 43vh;
+}
+#footer {
+    background-image: linear-gradient(to bottom, black,#280E2F);
+    height: 60vh;
+    width: 100%;
+}

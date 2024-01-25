@@ -1,0 +1,62 @@
+.header {
+    width: 100vw;
+    height: 12vh;
+    position:fixed;
+    z-index: 1;
+    transition: all 0.25s;
+}
+.headerActive {
+    background-color: rgba(34, 34, 34, 0.63);
+    height: 10vh;
+
+}
+.buttonsHeader {
+    float: right;
+    line-height: 3;
+    font-size: 17;
+    margin-right: 2.87vw;
+    margin-top: 3.2vh;
+    transition: all 0.25s;
+}
+.buttonsHeaderActive {
+    line-height: 1;
+    font-size: 12;
+    margin-top: 2vh;
+}
+.buttonHeader{
+    float: left;
+    line-height: 1;
+    margin: 0 0.38vw 0;
+    padding: 2.13vh 1.52vw;
+    font-size: 1.05vw;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f7931a;
+    color: rgb(228, 228, 228);
+    transition: all 0.25s;
+}
+.buttonHeader:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.buttonHeaderActive{
+    font-size: 13;
+    padding: 2vh 1.5vw;
+}
+.logo {
+    margin-left: 3.2vw;
+    margin-top: 4.3vh;
+    width: 200;
+    height: 100%;
+    float: left;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition: all 0.5s;
+}
+.logoActive {
+    width: 3.5vw;
+    margin-top: 2vh;
+    background-image: url("logoM.png");
+}

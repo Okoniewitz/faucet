@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    --bitcoinowy: #f7931a;
+    --ladnySzary: #7a7a7a4d;
+    --ladnySzary2: RGBA(229,229,229,0.2);
+}
+.mainPage {
+    height: 100vh;
+    clear: both;
+}
+#mainPage1 {
+    background-image: linear-gradient(to top, #280E2F,#1A113C, #111345);
+}
+
+#mainPage1 .Content {
+    clear: both;
+    padding: 26vh 5vw;
+}
+#mainPage1 .Content .Texts
+{
+    float: left;
+}
+#mainPage1 .Content .Texts h1 {
+    font-size: 5vw;
+    color: var(--bitcoinowy);
+    font-weight: 700;
+}
+#mainPage1 .Content .Texts h2{
+    font-size: 5.5vw;
+    margin-top: -5vh;
+    font-weight: 600;
+}
+#mainPage1 .Content .Texts h3  {
+    margin-top: -1vh;
+    font-size: 1.05vw;
+    font-weight: 100;
+}
+
+#mainPage1 .Content .Tiles
+{
+    float: right;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 1vh;
+    line-height: 0.8;
+}
+#mainPage1 .Content .Tiles .Tile {
+    margin-top: 2.15vh;
+    margin-left:1.6vw;
+    float:left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--bitcoinowy);
+    color: rgb(228, 228, 228);
+    width: 40%;
+    text-align: center;
+    height: 20vh;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    padding-top: 50;
+    font-size: 2vw;
+}
+#mainPage1 .Content .Tiles .Tile:hover {
+    transform: scale(1.1);
+}
+
+#mainPage2 {
+    background-image: linear-gradient(to bottom, #280E2F,#1A113C, #111345);
+}
+
+#mainPage2 .Content {
+    padding: 10vh 0.3vw 0px; 
+    width: 99vw;
+    height: 90vh;
+}
+
+#mainPage2 .Pic {
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+#mainPage2 .Content .Tiles {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+#mainPage2 .Content .Tiles .Tile {
+    float: left;
+    width: 17vw;
+    padding: 4vh 1vw;
+    height: 20vh;
+    background-color: var(--ladnySzary);
+    font-size: 6vh;
+    margin: 0px 0.5vw 2vh;
+    transition: all .2s ease-in-out;
+}
+#mainPage2 .Content .Tiles .Tile:hover {
+    transform: scale(1.1);
+}
+
+#mainPage3 {
+    padding-top: 10vh;
+    background-image: linear-gradient(to top, #280E2F,#1A113C, #111345); 
+}
+#mainPage3 .Content {
+    padding: 0px 0.3vw 0px; 
+    width: 99vw;
+    height: 90vh;
+    background-color: rgba(128, 128, 128, 0.205);
+    background-image: url("cryptocurrencies.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#mainPage3 .Content .Tiles {
+    margin: auto;
+    padding-top: 35vh;
+    width: 78vw;
+    text-align: center;
+}
+#mainPage3 .Content .Tiles .Tile {
+    float: left;
+    width: 20vw;
+    height: 16vh;
+    padding: 8vh 1vw 0vh;
+    border-radius: 3vh;
+    font-weight: 600;
+    background-color: var(--ladnySzary2);
+    font-size: 1.5vw;
+    margin: 13vh 2vw 10vh;
+    transition: all .2s ease-in-out;
+}
+#mainPage3 .Content .Tiles .Tile h4 {
+    margin-top: -6vh;
+}
+#mainPage3 .Content .Tiles .Tile .step{
+    position:relative;
+    padding: 2vh 2vw;
+    border-radius: 10vh;
+    font-size: 2vw;
+    top: -10vh;
+    margin:auto;
+    width: 40%;
+    background-color: var(--bitcoinowy);
+}
+#mainPage3 .Content .Tiles .Tile img{
+    position:relative;
+    width: 10vw;
+    height: 20vh;
+    left: 13vw;
+    top: -25vh;
+}
+#mainPage3 .Content .Tiles p
+{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+#mainPage4 {
+    background-image: linear-gradient(to bottom, #280E2F,#1A113C, black);
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: storm;
+    src: url(stormfaze.ttf);
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: linear-gradient(to top, #280E2F,#1A113C, #111345);
+    height: 100vh;
+}
+form {
+    color: lightgray;
+    width: 420;
+    padding: 2% 0 2% 0;
+    position:absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -210;
+    border-radius: 20px;
+    font-size: 23;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7931a;
+}
+#buttons {
+    margin: 0 50;
+}
+input {
+    color: #f7931a;
+    margin: 5 0;
+    width: 320;
+    height: 35;
+    border-radius: 8px;
+    font-size: 15;
+    font-weight: 300;
+    background-color: darkgray;
+    border-width: 2px;
+    border-style: none;
+}
+#register {
+    position:absolute;
+    top: 120px;
+    font-size: 50;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}

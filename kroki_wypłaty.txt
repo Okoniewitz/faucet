@@ -1,0 +1,15 @@
+1.
+choose the cryptocurrency in which you want to withdraw your balance.
+2.
+withdraw the cryptocurrency of your choice to your wallet.
+3.
+enjoy free cryptocurrency in your wallet
+
+
+
+<i class="fa-solid fa-list-check"></i>
+
+<i class="fa-solid fa-users"></i>
+
+<i class="fa-solid fa-money-bills"></i>
+s

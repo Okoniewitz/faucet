@@ -1,0 +1,116 @@
+#BTCAnim1 {
+    animation-name: btcUp1;
+    width: 40;
+    height: 40;
+    position:relative;
+    left: 80;
+    animation-duration: 4.5s;
+    animation-delay: 600ms;
+    opacity: 0;
+    animation-iteration-count: 1;
+}
+#BTCAnim2 {
+    animation-name: btcUp2;
+    width: 80;
+    height: 80;
+    left: 132;
+    position:relative;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-delay: 300ms;
+    animation-iteration-count: 2;
+}
+#BTCAnim3 {
+    animation-name: btcUp3;
+    position:relative;
+    width: 50;
+    height: 50;
+    left: 190;
+    animation-duration: 3.25s;
+    animation-delay: 800ms;
+    opacity: 0;
+    animation-iteration-count: 1;
+}
+#BTCAnim4 {
+    animation-name: btcUp4;
+    width: 65;
+    height: 65;
+    left: 230;
+    position:relative;
+    animation-delay: 400ms;
+    animation-duration: 3.5s;
+    opacity: 0;
+    animation-iteration-count: 1;
+}
+  @keyframes btcUp1 {
+    0%   
+    {
+        top:0px;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    20%   
+    {
+        opacity: 0.5;
+    }
+    100% 
+    {
+        opacity: 0;
+        transform: rotate(90deg);
+        top:-300px;
+    }
+  }
+  @keyframes btcUp2 {
+    0%   
+    {
+        top:60px;
+        transform: rotate(20deg);
+        opacity: 0;
+    }
+    20%   
+    {
+        opacity: 0.5;
+    }
+    100% 
+    {
+        opacity: 0;
+        transform: rotate(120deg);
+        top:-380px;
+    }
+  }
+  @keyframes btcUp3 {
+    0%   
+    {
+        top:100px;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    20%   
+    {
+        opacity: 0.5;
+    }
+    100% 
+    {
+        opacity: 0;
+        transform: rotate(120deg);
+        top:-250px;
+    }
+  }
+  @keyframes btcUp4 {
+    0%   
+    {
+        top:-30px;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    20%   
+    {
+        opacity: 0.5;
+    }
+    100% 
+    {
+        opacity: 0;
+        transform: rotate(60deg);
+        top:-250px;
+    }
+  }
